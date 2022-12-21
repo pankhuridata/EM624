@@ -1,0 +1,36 @@
+Exercise 9: Analyze news
+Assignment Specification
+Description: This program will read a pre-processed set of news and extract information about their content.
+The dataset. News_2021.csv contains 769 rows composed by:
+ title
+ link
+ keywords
+ creator video_url
+ description
+ content
+ pubDate
+ full_description
+ image_url
+ source_id.
+News have been collected during the period 10/24/21 and 10/26/21 and they are primarily related to COVID-19.
+
+Input: No user provided input. Data will be from the file News_2021.csv
+
+Output:
+1. Print the 20 most common words
+2. Print the articles related to COVID-19 and calculate their percentage of the total
+3. Print the sentiment for the articles NOT related to COVID-19
+4. Print the sentiment for ALL the articles
+5. Create a wordcloud with the words in the articles NOT related to COVID-19
+6. Create a wordcloud with the words in ALL the articles
+See details in the Procedure.
+
+Procedure:
+1. Read the input file into a list
+2. Text is in either/or "description" or "content": merge the 2 columns and create a list with all the 
+text
+3. Clean the text using the file stopwords_en.txt
+4. Perform the analysis required as "Output"
+5. Submit your .py file and an interpretation report.
+Please note:
+ In order to be considered "related to COVID-19", the article should contain any of the following words: covid, coronavirus, vaccine, vaccination, antibody, moderna, pfizer, johnson
