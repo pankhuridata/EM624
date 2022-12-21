@@ -1,1 +1,39 @@
+Exercise: Bokeh Plots 
+ 
+Description: This program will create four plots from data in a matrix (list of lists or pandas). 
 
+Input: is the file SSE_Faculty.csv, containing the courses taught by the faculty of the School of Systems 
+and Enterprises from Spring '19 to Spring '23 (modified version of the actual data). 
+Per each Academic Year, there is "Load" (number of classes taught by the faculty); "Target" (number of 
+classes the faculty was assigned to teach); "Balance" (Load - Target). 
+ 
+Output: Some statistical values and four html files with one plot each. 
+See details in the Procedure. 
+
+Procedure: 
+1.  Open and read SSE_Faculty.csv into either a list of lists or pandas. 
+
+2.  Calculate and print the following: 
+o  Number of courses per each program per each Academic Year 
+o  Average number of courses per faculty per Academic Year 
+o  Number of underloaded faculty per each Academic Year 
+o  Number of overloaded faculty per each Academic Year 
+
+3.  Using Bokeh, create the following 4 plots: 
+o  Courses per program per Academic Year 
+•  Line Plot 
+•  Label the y-axis “Courses” 
+•  Add a legend with the names of the programs 
+o  Average number of courses per faculty over the years 
+•  Bar Plot 
+•  Label the x-axis “ID” 
+•  Label the y-axis with the number of courses 
+o  Number of underloaded faculty over the years 
+•  Line Plot 
+•  Label the x-axis with the years 
+•  Label the y-axis "ID" 
+o  Courses by program in '22-'23 
+•  Pie chart 
+•  Label the wedges (names = 'EM', 'SSW', 'SYS') 
+ 
+You will submit the .py with your script. 
