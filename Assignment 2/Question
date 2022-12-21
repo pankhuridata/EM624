@@ -1,0 +1,32 @@
+Exercise 2
+
+Description:
+This assignment has two parts: a testing design exercise and a python program.
+
+Part 1. Testing Design:
+o	Determine a set of inputs that will adequately test the Python program you are writing.
+	It should be minimal: try not to have duplicate tests
+	Be sure to cover all the cases/alternatives
+o	Create a .doc/.pdf document detailing the testing steps from the Testing Design above.
+
+Part 2. Python Program
+Write the program as a loop to prompt the user for input, checking it and printing the proper message, until the user inputs ‘done’ (without quotes).
+Input: The user will be prompted for a password to be validated. They will enter the word ‘done’ (no quotes) to finish.
+Enter a password with the given characteristics, or ‘done’ (without quotes) if you are finished: 
+o	[ user input; examples: abc123ft, done]
+
+Output: Print the proper messages, based on the input.
+o		Examples:
+	Password accepted!
+	Goodbye!
+
+Procedure:
+1.	Print the request for the password and its required characteristics, that are:
+a.	Minimum length: 5
+b.	Maximum length: 12
+c.	Any combination of numerical and alphabetical characters (either small or capital letters)
+2.	Prompt the user for a password
+3.	If the user enters ‘done’ (without quotes), print goodbye and stop
+4.	Check if the password requirements have been applied. Provide different messages for the different errors. The message will be "Errors in your password, including " followed by the condition generating the error (e.g.: "non minimum length"). If multiple errors occur, use any of them
+5.	If the user enters an acceptable password, print " Password accepted!".
+
