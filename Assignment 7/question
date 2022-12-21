@@ -1,1 +1,26 @@
+EX07: Comparing text
+Assignment Specification
+The website ProCon.org is collecting some of the most controversial issues in our society. They collect and publish both Pro & Cons quotes and readers’ comments.
+Peak one of the following controversial issues, select/copy/paste the Pro & Cons in 2 separate txt files for analysis.
+Controversial issues:
+ American Socialism
+ Binge-Watching
+ Dress Codes
+ Space Colonization
+Copy the pro and con from the website and paste them in 2 separate txt files.
+Goal of this assignment is to compare the 2 positions (Pro/Con) via the related texts.
+In order to perform the comparison, you will write a Python script to extract key information and then add a layer of interpretation.
+You need to create the txt files first, by separately selecting the pro and con, copy, paste them in a text editor and save the 2 files as txt. A preliminary cleaning (before saving the files) is recommended. 
+Please refer to what presented in class for examples.
 
+Once you have the files, the script will do the following:
+ Clean the texts by removing
+o the stopwords, using the attached stopwords_en.txt file
+o words shorter than 3 characters
+o all the words that are obviously frequently used (like the name of the issue)
+o the punctuation
+o end-of-line (“/n”) and blank lines
+ Using the library "vader", calculate the sentiment for the 2 texts 
+ Extract bigrams
+ Create word clouds for the 2 texts.
+Once you performed all the above steps, write a report with your conclusions. 
