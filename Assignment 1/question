@@ -1,1 +1,24 @@
+Exercise 01
+
+Description: Write a program named exchange.py that will convert an amount of US dollars into a currency of the user’s choice. You must find the exchange rate for your chosen currency and input it to your program.
+
+Input:  The user should be prompted for three inputs, using three separate raw_input statements (as in EX00):
+How many US Dollars do you want to exchange? 		[ user input, example: 100 ]
+Enter the name of the currency you are converting dollars to: 	[ example: rupees ]
+What is the exchange rate? 						[ example: 68 ]
+
+Output:  The input dollar amount, currency type, and amount of the currency that is equivalent to the input number of dollars, with appropriate description. Example:
+	You can exchange 100 U.S. dollars for 6811 rupees
+
+Procedure:
+1.	Within a loop (as in EX00), prompt the user for the number of US Dollars xxxxx. Check if the input is numeric using the Python built-in function string.isdigit() (https://docs.python.org/3/library/stdtypes.html). If not, start the whole loop all over (using the statement ‘continue’). Be aware that isdigit() considers numbers only pure numerical values (no ‘-‘ or ‘.’). Your program will therefore take only integers as input numerical values
+2.	Prompt the user for the name of currency he/she is converting the US Dollars into
+3.	Prompt the user for the exchange rate rrrrr: that is, one US dollar = rrrrr units of the chosen currency. Check if the input is numeric using the Python built-in function string.isdigit(). If not, start the whole loop all over
+4.	Calculate the number of the chosen currency represented by the input number of U.S. dollars
+5.	Print the results, leaving a blank line before, for readability. A blank line before your actual printing can be printed with a separate print statement:
+print ()
+print (‘xyzxyzxyz’)
+Or by using the \n newline notation:
+print (‘\n xyzxyzxyz’)
+
 
